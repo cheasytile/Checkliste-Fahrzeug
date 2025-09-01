@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Einsatz-Checkliste</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0b5fff">
+  <link rel="icon" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="appbar">
+  <div class="brand"><span class="logo">✚</span><span>Einsatz-Checkliste</span></div>
+  <button id="installBtn" class="ghost">Installieren</button>
+</header>
+<main id="view-select" class="container">
+  <h1>Wähle dein Einsatzmittel</h1>
+  <div class="cards">
+    <button class="card" data-vehicle="sew"><h2>SEW</h2><p>Sanitätseinsatzwagen<br><small>Quelle: ÖRK LV OÖ, 03/2023</small></p></button>
+    <button class="card" data-vehicle="sew-n"><h2>SEW-N</h2><p>Variante / regionaler Standard<br><small>(vorbereitet, anpassbar)</small></p></button>
+  </div>
+</main>
+<main id="view-checklist" class="container hidden">
+  <div class="toolbar">
+    <button id="backBtn" class="ghost">← Zurück</button>
+    <div class="title">
+      <h1 id="title"></h1>
+      <div id="subtitle" class="muted"></div>
+    </div>
+  </div>
+  <div class="controls">
+    <input id="search" type="search" placeholder="Suche nach Begriff oder Pos.-Nr. …" aria-label="Suche">
+    <div class="control-buttons">
+      <button id="expandAll" class="ghost">Alle öffnen</button>
+      <button id="collapseAll" class="ghost">Alle schließen</button>
+      <button id="markAll" class="ghost">Alle abhaken</button>
+      <button id="clearAll" class="ghost">Alle zurücksetzen</button>
+    </div>
+  </div>
+  <section id="sections"></section>
+  <section class="summary">
+    <h2>Fehlen</h2>
+    <div id="missingList" class="missing"></div>
+    <div class="summary-actions">
+      <button id="exportJson">Status exportieren (.json)</button>
+      <button id="printBtn">Als PDF drucken/teilen</button>
+      <span id="lastSaved" class="muted"></span>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

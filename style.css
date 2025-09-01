@@ -1,0 +1,31 @@
+*{box-sizing:border-box}
+:root{--bg:#0a0b0f;--card:#141826;--ink:#e8ecf1;--muted:#b5c0d0;--accent:#0b5fff}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:#0a0b0f;color:var(--ink)}
+.appbar{position:sticky;top:0;display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:rgba(10,11,15,.8);backdrop-filter:saturate(160%) blur(6px);border-bottom:1px solid #1c2030}
+.brand{display:flex;gap:10px;align-items:center;font-weight:700}
+.logo{display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;border-radius:8px;background:var(--accent);color:white}
+.container{max-width:980px;margin:24px auto;padding:0 16px}
+.hidden{display:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:16px}
+.card{background:#141826;border:1px solid #1c2030;border-radius:14px;padding:16px;text-align:left}
+.card:hover{outline:2px solid var(--accent);cursor:pointer}
+.toolbar{display:flex;gap:16px;align-items:center;margin-bottom:6px}
+.title h1{margin:.2rem 0}
+.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:16px 0}
+.control-buttons{display:flex;gap:8px;flex-wrap:wrap}
+input[type="search"]{flex:1;min-width:220px;background:#141826;border:1px solid #1c2030;color:var(--ink);padding:10px 12px;border-radius:10px}
+.ghost{background:transparent;border:1px solid #30364a;color:var(--ink);padding:8px 12px;border-radius:10px}
+.section{background:#141826;border:1px solid #1c2030;border-radius:14px;margin:12px 0}
+.section header{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-bottom:1px solid #1c2030}
+.section .body{padding:8px 14px;display:none}
+.section.open .body{display:block}
+.item{display:flex;align-items:flex-start;gap:10px;padding:8px 4px;border-bottom:1px dashed #1c2030}
+.item:last-child{border-bottom:none}
+.item input[type="checkbox"]{margin-top:3px;transform:scale(1.2)}
+.item .meta{flex:1}
+.item .id{color:var(--muted);margin-right:8px}
+.item .qty{color:var(--muted)}
+.item.checked .meta{opacity:.5;text-decoration:line-through}
+.summary{margin:22px 0}
+.missing{display:grid;gap:8px}
+.muted{color:#b5c0d0}
