@@ -1,58 +1,1178 @@
 {
   "meta": {
-    "title": "SEW Checkliste",
+    "title": "SEW Checkliste (teilweise)",
     "vehicle": "SEW",
-    "source": "ÖRK LV OÖ – SEW-Ausstattungsvorschrift 03/2023",
-    "generated": "2025-09-01"
+    "source": "ÖRK LV OÖ – SEW-Ausstattungsvorschrift, Version 3.0 (03/2023)",
+    "generated": "2025-09-02"
   },
   "sections": [
     {
       "name": "2.1 Fahrerraum",
       "items": [
         {
-          "id": "FR-001",
-          "label": "Bordwerkzeug inkl. Wagenheber",
+          "id": "001",
+          "label": "Bordwerkzeug (inkl. Abschlepphaken, Wagenheber …)",
           "qty": "1"
         },
         {
-          "id": "FR-003",
-          "label": "Feuerlöscher 2kg (A/B/C)",
+          "id": "002",
+          "label": "Fahrzeug-Mappe (Betriebs- & Servicebuch, Zulassungsschein, ÖAMTC/ARBÖ-Karten, Tankcodes)",
           "qty": "1"
         },
         {
-          "id": "FR-008",
+          "id": "003",
+          "label": "Feuerlöscher 2kg (A/B/C) inkl. Halterung",
+          "qty": "1"
+        },
+        {
+          "id": "004",
+          "label": "Handbesen (auf Warndreiecken fixiert)",
+          "qty": "1"
+        },
+        {
+          "id": "005",
+          "label": "Nothammer inkl. Halterung",
+          "qty": "1"
+        },
+        {
+          "id": "006",
+          "label": "Rettungskarte SEW T5/T6 (Beifahrersonnenblende)",
+          "qty": "1"
+        },
+        {
+          "id": "007",
+          "label": "Rettungskarten-Aufkleber (Windschutzscheibe links unten)",
+          "qty": "1"
+        },
+        {
+          "id": "008",
           "label": "Warndreiecke inkl. Halterung",
           "qty": "2"
         },
         {
-          "id": "FR-014",
-          "label": "Handfunkgeräte inkl. Zubehör",
+          "id": "009",
+          "label": "Handlampe (Streamlight FireBox) mit Ladekonsole",
+          "qty": "1"
+        },
+        {
+          "id": "010",
+          "label": "Mappe/Klemmbrett mit Einsatzprotokollen",
+          "qty": "1"
+        },
+        {
+          "id": "011",
+          "label": "Mappe „1. SEW vor Ort“",
+          "qty": "1"
+        },
+        {
+          "id": "012",
+          "label": "Kennzeichnungswesten ÖRK Rot",
           "qty": "3"
+        },
+        {
+          "id": "013",
+          "label": "Datenterminal (Eurofunk DIGIDAT 7/8)",
+          "qty": "1"
+        },
+        {
+          "id": "014",
+          "label": "Handfunkgeräte Motorola MTP3550 inkl. Zubehör",
+          "qty": "3"
+        },
+        {
+          "id": "015",
+          "label": "Ladehalterungen für HFG",
+          "qty": "3"
+        },
+        {
+          "id": "016",
+          "label": "Mobilfunkgerät Motorola MTM5400 inkl. Zubehör",
+          "qty": "1"
+        },
+        {
+          "id": "017",
+          "label": "OPTION: Navigationsgerät",
+          "qty": "1"
+        },
+        {
+          "id": "018",
+          "label": "Berechtigungskarten (Halterung Fahrersonnenblende)",
+          "qty": ""
+        },
+        {
+          "id": "019",
+          "label": "Pläne/Unterlagen (Mappe in Fahrer-/Beifahrertür)",
+          "qty": ""
+        },
+        {
+          "id": "020",
+          "label": "Schlüsselbund (nach regionalem Bedarf)",
+          "qty": ""
+        },
+        {
+          "id": "021",
+          "label": "Tankkarten (Halterung Fahrersonnenblende)",
+          "qty": ""
         }
       ]
     },
     {
-      "name": "2.2 Notfall-Rucksack (Auszug)",
+      "name": "2.1.1 Mappe 1. SEW vor Ort",
       "items": [
         {
-          "id": "NR-047",
+          "id": "022",
+          "label": "Mappe PAX Fahrtenbuch - Multi Organizer A4, Tagesleuchtgelb",
+          "qty": "1"
+        },
+        {
+          "id": "023",
+          "label": "Kennzeichnungslatz „Provisorischer Einsatzleiter“",
+          "qty": "1"
+        },
+        {
+          "id": "024",
+          "label": "Klemmbrett „Provisorischer Einsatzleiter“",
+          "qty": "1"
+        },
+        {
+          "id": "025",
+          "label": "Karte „1. SEW vor Ort | LaDaS 0“ (A6, wasserfest)",
+          "qty": "1"
+        },
+        {
+          "id": "026",
+          "label": "LaDaS 1 (A4, wasserfest) auf Klemmbrett EL",
+          "qty": "1"
+        },
+        {
+          "id": "027",
+          "label": "Kennzeichnungslatz „Leiter Transport“",
+          "qty": "1"
+        },
+        {
+          "id": "028",
+          "label": "Klemmbrett „Leiter Transport“",
+          "qty": "1"
+        },
+        {
+          "id": "029",
+          "label": "Checkliste „KFZ-Sammelplatz“ inkl. Anhänge",
+          "qty": "1"
+        },
+        {
+          "id": "030",
+          "label": "Kennzeichnungslatz „Leiter SANHIST“",
+          "qty": "1"
+        },
+        {
+          "id": "031",
+          "label": "Klemmbrett „Leiter SANHIST“",
+          "qty": "1"
+        },
+        {
+          "id": "032",
+          "label": "Checkliste „Patientensammelstelle/SANHIST“ inkl. Anhänge",
+          "qty": "1"
+        },
+        {
+          "id": "033",
+          "label": "PLS (10 Stk. in Kuvert)",
+          "qty": "10"
+        },
+        {
+          "id": "034",
+          "label": "Folder „Gefährliche Stoffe“ (ÖBFV, 2018+)",
+          "qty": "1"
+        },
+        {
+          "id": "035",
+          "label": "Notizblock kariert, gelocht",
+          "qty": "1"
+        },
+        {
+          "id": "036",
+          "label": "LaDaS 1 (A4, wasserfest) in Klarsichthülle",
+          "qty": "9"
+        },
+        {
+          "id": "037",
+          "label": "Kugelschreiber",
+          "qty": "3"
+        },
+        {
+          "id": "038",
+          "label": "Permanent-Marker Fine schwarz",
+          "qty": "3"
+        },
+        {
+          "id": "039",
+          "label": "Bleistifte",
+          "qty": "3"
+        },
+        {
+          "id": "040",
+          "label": "Spitzer Metall",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "name": "2.2 Notfall-Rucksack",
+      "items": [
+        {
+          "id": "041",
+          "label": "PAX BERLIN Rot inkl. Innentaschen & O2-Halterung",
+          "qty": "1"
+        },
+        {
+          "id": "042",
+          "label": "CO-Warngerät Dräger Pac 5500/6500 + Holster",
+          "qty": "1"
+        },
+        {
+          "id": "044",
+          "label": "Blutdruck-Messgerät Erwachsene inkl. Tasche",
+          "qty": "1"
+        },
+        {
+          "id": "045",
+          "label": "Blutzuckermessgerät-Set (Gerät + Streifen + Zubehör)",
+          "qty": "1"
+        },
+        {
+          "id": "046",
+          "label": "Brechbeutel",
+          "qty": "1"
+        },
+        {
+          "id": "047",
           "label": "IR-Ohr-Fieberthermometer + Schutzkappen",
           "qty": "1"
         },
         {
-          "id": "NR-052",
+          "id": "048",
+          "label": "Fingerpulsoximeter MD300C29",
+          "qty": "1"
+        },
+        {
+          "id": "049",
+          "label": "Händedesinfektionsmittel 100ml",
+          "qty": "1"
+        },
+        {
+          "id": "050",
+          "label": "Pupillenlampe",
+          "qty": "1"
+        },
+        {
+          "id": "051",
+          "label": "Schutzbrillen (wiederverwendbar nach Wischdesinfektion)",
+          "qty": "2"
+        },
+        {
+          "id": "052",
           "label": "Stethoskop",
           "qty": "1"
         },
         {
-          "id": "NR-063",
+          "id": "053",
+          "label": "Aufbewahrungstüte (Prothesen, Hörgeräte etc.)",
+          "qty": "1"
+        },
+        {
+          "id": "054",
+          "label": "Ablaufgerät",
+          "qty": "1"
+        },
+        {
+          "id": "055",
+          "label": "Alkotupfer",
+          "qty": "6"
+        },
+        {
+          "id": "056",
+          "label": "Aufziehkanülen mit Filter 18G",
+          "qty": "6"
+        },
+        {
+          "id": "057",
+          "label": "Fixierpflaster Leukoplast 2,5cm",
+          "qty": "1"
+        },
+        {
+          "id": "058",
+          "label": "Kanülenpflaster Leukomed 6x8cm",
+          "qty": "3"
+        },
+        {
+          "id": "059",
+          "label": "Infusionslösung Elo-Mel isoton 500ml",
+          "qty": "1"
+        },
+        {
+          "id": "060",
+          "label": "Peha-haft 8cm",
+          "qty": "1"
+        },
+        {
+          "id": "061",
+          "label": "Nadelabwurfbehälter 0,45l",
+          "qty": "1"
+        },
+        {
+          "id": "062",
+          "label": "Schere nach Lister 14cm",
+          "qty": "1"
+        },
+        {
+          "id": "063",
           "label": "Sicherheits-VVK blau 0,9x25",
           "qty": "1"
         },
         {
-          "id": "NR-079",
-          "label": "Beatmungsbeutel-Set Erw.",
+          "id": "064",
+          "label": "Sicherheits-VVK rosa 1,1x33",
+          "qty": "2"
+        },
+        {
+          "id": "065",
+          "label": "Sicherheits-VVK grün 1,3x45",
+          "qty": "2"
+        },
+        {
+          "id": "066",
+          "label": "Sicherheits-VVK orange 2,1x45",
           "qty": "1"
+        },
+        {
+          "id": "067",
+          "label": "Spritzen 1ml",
+          "qty": "2"
+        },
+        {
+          "id": "068",
+          "label": "Spritzen 2ml",
+          "qty": "3"
+        },
+        {
+          "id": "069",
+          "label": "Spritzen 5ml",
+          "qty": "3"
+        },
+        {
+          "id": "070",
+          "label": "Spritzen 10ml",
+          "qty": "2"
+        },
+        {
+          "id": "071",
+          "label": "Staubinde",
+          "qty": "1"
+        },
+        {
+          "id": "072",
+          "label": "Verschlussstopfen Luer-Lock",
+          "qty": "2"
+        },
+        {
+          "id": "073",
+          "label": "Wundkompresse 10x10 (20J Haltbarkeit)",
+          "qty": "1"
+        },
+        {
+          "id": "074",
+          "label": "Wundpflaster 6–8x100cm",
+          "qty": "1"
+        },
+        {
+          "id": "075",
+          "label": "Zellstofftupfer",
+          "qty": "6"
+        },
+        {
+          "id": "076",
+          "label": "Absaugkatheter Ch.10 atraumatisch",
+          "qty": "3"
+        },
+        {
+          "id": "077",
+          "label": "Absaugkatheter Ch.18 atraumatisch",
+          "qty": "3"
+        },
+        {
+          "id": "078",
+          "label": "Alu-Rettungsdecke",
+          "qty": "1"
+        },
+        {
+          "id": "079",
+          "label": "Beatmungsbeutel-Set Erw. (Ambu Mark IV + Filter + O2-Schlauch)",
+          "qty": "1"
+        },
+        {
+          "id": "080",
+          "label": "Dreiecktuch",
+          "qty": "1"
+        },
+        {
+          "id": "081",
+          "label": "Elastische Mullbinde 8cm",
+          "qty": "1"
+        },
+        {
+          "id": "082",
+          "label": "Kleiderschere massiv (Robin safety)",
+          "qty": "1"
+        },
+        {
+          "id": "083",
+          "label": "Momentverband 8x10",
+          "qty": "1"
+        },
+        {
+          "id": "084",
+          "label": "O2-Flasche 2l inkl. Druckminderer/Flowmeter",
+          "qty": "1"
+        },
+        {
+          "id": "085",
+          "label": "O2-Masken mit Reservoir (Erw.)",
+          "qty": "3"
+        },
+        {
+          "id": "086",
+          "label": "OPTION: Tourniquet CAT (Schnellangriff)",
+          "qty": "1"
+        },
+        {
+          "id": "092",
+          "label": "Intubationstasche: LTS-D 3/4/5; Wendl 22/28; Guedel 3/4/5; Magill; Sekretbeutel; Blockerspritze; NaCl",
+          "qty": "Set"
+        },
+        {
+          "id": "101",
+          "label": "Beatmungsbeutel Baby + Masken Gr.0/1 + Filter",
+          "qty": "1"
+        },
+        {
+          "id": "106",
+          "label": "Blutdruck-Messgerät Kind",
+          "qty": "1"
+        },
+        {
+          "id": "107",
+          "label": "O2-Maske Kind mit Reservoir",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "name": "2.3 Trauma-Rucksack",
+      "items": [
+        {
+          "id": "112",
+          "label": "PAX SEG Rucksack groß blau inkl. Innentaschen",
+          "qty": "1"
+        },
+        {
+          "id": "113",
+          "label": "HWS-Schiene Erw. Ambu Perfit ACE",
+          "qty": "1"
+        },
+        {
+          "id": "114",
+          "label": "HWS-Schiene Kind Ambu Perfit Mini ACE",
+          "qty": "1"
+        },
+        {
+          "id": "115",
+          "label": "SamSplint 36\"",
+          "qty": "2"
+        },
+        {
+          "id": "116",
+          "label": "aluderm 80x120cm",
+          "qty": "1"
+        },
+        {
+          "id": "117",
+          "label": "aluderm 40x60cm",
+          "qty": "1"
+        },
+        {
+          "id": "118",
+          "label": "Dreiecktücher",
+          "qty": "3"
+        },
+        {
+          "id": "119",
+          "label": "Elastische Mullbinde 8cm",
+          "qty": "2"
+        },
+        {
+          "id": "120",
+          "label": "Leukoplast 2,5cm",
+          "qty": "2"
+        },
+        {
+          "id": "121",
+          "label": "Peha-haft 8cm",
+          "qty": "2"
+        },
+        {
+          "id": "122",
+          "label": "Kopfverbände Gr. M",
+          "qty": "3"
+        },
+        {
+          "id": "123",
+          "label": "Momentverbände 8x10",
+          "qty": "5"
+        },
+        {
+          "id": "124",
+          "label": "Alu-Rettungsdecken",
+          "qty": "3"
+        },
+        {
+          "id": "125",
+          "label": "Wundpflaster 6–8x100cm",
+          "qty": "1"
+        },
+        {
+          "id": "126",
+          "label": "Kältesofortkompressen 15x20cm",
+          "qty": "3"
+        },
+        {
+          "id": "127",
+          "label": "Tourniquet CAT",
+          "qty": "1"
+        },
+        {
+          "id": "128",
+          "label": "aluderm 10x10",
+          "qty": "10"
+        },
+        {
+          "id": "129",
+          "label": "Einmal-Handschuhe Gr. L (Paar)",
+          "qty": "5"
+        },
+        {
+          "id": "130",
+          "label": "Universalschere",
+          "qty": "1"
+        },
+        {
+          "id": "131",
+          "label": "Zetuvit 20x40",
+          "qty": "2"
+        },
+        {
+          "id": "132",
+          "label": "Zetuvit 10x10",
+          "qty": "5"
+        },
+        {
+          "id": "133",
+          "label": "Schere nach Lister 14cm",
+          "qty": "1"
+        },
+        {
+          "id": "134",
+          "label": "Splitterpinzette",
+          "qty": "1"
+        },
+        {
+          "id": "135",
+          "label": "Wundkompressen 10x10",
+          "qty": "10"
+        }
+      ]
+    },
+    {
+      "name": "2.4 Patientenraum – Innenraum & Defi",
+      "items": [
+        {
+          "id": "136",
+          "label": "Absaugeinheit Accuvac Pro inkl. Einmal-Behälter + Schlauch (Fingertip)",
+          "qty": "1"
+        },
+        {
+          "id": "139",
+          "label": "Einmal-Handschuhe S/M/L (je 1 Pkg.)",
+          "qty": "3 Pkg."
+        },
+        {
+          "id": "142",
+          "label": "Händedesinfektionsmittel 500ml im Spender",
+          "qty": "1"
+        },
+        {
+          "id": "144",
+          "label": "Krankentrage Stryker M1 inkl. Zubehör",
+          "qty": "1"
+        },
+        {
+          "id": "146",
+          "label": "O2-Flaschen 5l (1x angeschlossen)",
+          "qty": "2"
+        },
+        {
+          "id": "147",
+          "label": "O2-Flowmeter (abnehmbar)",
+          "qty": "1"
+        },
+        {
+          "id": "148",
+          "label": "Rollboard Schnitzler ECO inkl. Tasche",
+          "qty": "1"
+        },
+        {
+          "id": "149",
+          "label": "Tragsessel Dlouhy light",
+          "qty": "1"
+        },
+        {
+          "id": "150",
+          "label": "Defibrillator LP 1000",
+          "qty": "1"
+        },
+        {
+          "id": "151",
+          "label": "Defi-Elektroden Adult Quik Combo Redi-Pak (1x aktiv, 1x Reserve)",
+          "qty": "2"
+        },
+        {
+          "id": "152",
+          "label": "Medizinische Langhaarrasierer",
+          "qty": "2"
+        },
+        {
+          "id": "153",
+          "label": "Universalschere",
+          "qty": "1"
+        },
+        {
+          "id": "155",
+          "label": "Absaugkatheter Ch.10",
+          "qty": "3"
+        },
+        {
+          "id": "156",
+          "label": "Absaugkatheter Ch.18",
+          "qty": "4"
+        }
+      ]
+    },
+    {
+      "name": "2.4 Weitere Fächer/Hygiene/IV/PSA/Transfer (Auszug)",
+      "items": [
+        {
+          "id": "157",
+          "label": "Ablaufgeräte (Wärmebox)",
+          "qty": "3"
+        },
+        {
+          "id": "158",
+          "label": "Infusionslösungen Elo-Mel isoton 500ml (Wärmebox)",
+          "qty": "3"
+        },
+        {
+          "id": "160",
+          "label": "Decke Reserve",
+          "qty": "1–2"
+        },
+        {
+          "id": "161",
+          "label": "Deckenüberzüge",
+          "qty": "5"
+        },
+        {
+          "id": "162",
+          "label": "Einmal-Tragenauflagen",
+          "qty": "5"
+        },
+        {
+          "id": "163",
+          "label": "Leintücher",
+          "qty": "5"
+        },
+        {
+          "id": "168",
+          "label": "Verbrennungsbetttuch 73x220",
+          "qty": "2"
+        },
+        {
+          "id": "170",
+          "label": "Blutdruck-Messgerät (Erw.) inkl. Tasche",
+          "qty": "1"
+        },
+        {
+          "id": "171",
+          "label": "O2-Masken mit Reservoir (Erw.)",
+          "qty": "3"
+        },
+        {
+          "id": "173",
+          "label": "Einmal-Beatmungsbeutel Erw. (Ambu SPUR II) + Maske Gr.5 + O2-Schlauch + Reserv.",
+          "qty": "1"
+        },
+        {
+          "id": "176",
+          "label": "O2-Maske mit Reservoir (Kind)",
+          "qty": "1"
+        },
+        {
+          "id": "178",
+          "label": "Brechbeutel",
+          "qty": "5"
+        },
+        {
+          "id": "179",
+          "label": "Brechtassen",
+          "qty": "5"
+        },
+        {
+          "id": "180",
+          "label": "Schutzbrille (Infield Huntor)",
+          "qty": "1"
+        },
+        {
+          "id": "182",
+          "label": "aluderm 10x10 (20J)",
+          "qty": "10"
+        },
+        {
+          "id": "183",
+          "label": "Alu-Rettungsdecken",
+          "qty": "3"
+        },
+        {
+          "id": "189",
+          "label": "Momentverbände 8x10",
+          "qty": "5"
+        },
+        {
+          "id": "190",
+          "label": "Zetuvit 10x10",
+          "qty": "5"
+        },
+        {
+          "id": "191",
+          "label": "Verbandschere nach Lister",
+          "qty": "1"
+        },
+        {
+          "id": "192",
+          "label": "Wunddesinfektionsmittel Octenisept 50ml",
+          "qty": "1"
+        },
+        {
+          "id": "194",
+          "label": "Wundpflaster 6–8x100cm",
+          "qty": "1"
+        },
+        {
+          "id": "195",
+          "label": "Alkotupfer",
+          "qty": "6"
+        },
+        {
+          "id": "197",
+          "label": "Aufziehkanülen mit Filter 18G",
+          "qty": "6"
+        },
+        {
+          "id": "198",
+          "label": "Kanülenpflaster Leukomed 6x8cm",
+          "qty": "3"
+        },
+        {
+          "id": "199",
+          "label": "Kältesofortkompressen 15x20",
+          "qty": "2"
+        },
+        {
+          "id": "200",
+          "label": "Kleiderschere massiv (Nothammer Patientenraum)",
+          "qty": "1"
+        },
+        {
+          "id": "201",
+          "label": "Nadelabwurfbehälter 0,45l",
+          "qty": "1"
+        },
+        {
+          "id": "202",
+          "label": "Sicherheits-VVK blau 0,9x25",
+          "qty": "1"
+        },
+        {
+          "id": "203",
+          "label": "Sicherheits-VVK rosa 1,1x33",
+          "qty": "2"
+        },
+        {
+          "id": "204",
+          "label": "Sicherheits-VVK grün 1,3x45",
+          "qty": "2"
+        },
+        {
+          "id": "205",
+          "label": "Sicherheits-VVK orange 2,1x45",
+          "qty": "1"
+        },
+        {
+          "id": "206",
+          "label": "Spritzen 1ml",
+          "qty": "2"
+        },
+        {
+          "id": "207",
+          "label": "Spritzen 2ml",
+          "qty": "3"
+        },
+        {
+          "id": "208",
+          "label": "Spritzen 5ml",
+          "qty": "3"
+        },
+        {
+          "id": "209",
+          "label": "Spritzen 10ml",
+          "qty": "2"
+        },
+        {
+          "id": "210",
+          "label": "Staubinde",
+          "qty": "1"
+        },
+        {
+          "id": "211",
+          "label": "Verschlussstopfen Luer-Lock",
+          "qty": "6"
+        },
+        {
+          "id": "212",
+          "label": "Einmal-Absaugbeutel Serres 1000ml für Accuvac",
+          "qty": "1"
+        },
+        {
+          "id": "213",
+          "label": "Einmal-Absaugschlauch mit Fingertip für Accuvac",
+          "qty": "1"
+        },
+        {
+          "id": "214",
+          "label": "Flächendesinfektionsmittel 500ml (acryl-des/Antiseptica)",
+          "qty": "2"
+        },
+        {
+          "id": "215",
+          "label": "FFP2-Masken",
+          "qty": "10"
+        },
+        {
+          "id": "216",
+          "label": "Rolle Abfallsäcke (Müllbehälter passend)",
+          "qty": "1"
+        },
+        {
+          "id": "217",
+          "label": "Schülke wipes (trockene Tücher)",
+          "qty": "1 Pkg."
+        },
+        {
+          "id": "219",
+          "label": "Einmal-Urinal unisex",
+          "qty": "3"
+        },
+        {
+          "id": "220",
+          "label": "Leibschüssel",
+          "qty": "1"
+        },
+        {
+          "id": "221",
+          "label": "Ambu Twin Fußabsaugpumpe (mechanisch)",
+          "qty": "1"
+        },
+        {
+          "id": "222",
+          "label": "HWS-Schiene Erw. Ambu Perfit ACE",
+          "qty": "1"
+        },
+        {
+          "id": "223",
+          "label": "HWS-Schiene Kind Ambu Perfit Mini ACE",
+          "qty": "1"
+        },
+        {
+          "id": "224",
+          "label": "SamSplint 36\"",
+          "qty": "1"
+        },
+        {
+          "id": "225",
+          "label": "Schnitzler Universalschiene Set",
+          "qty": "1"
+        },
+        {
+          "id": "226",
+          "label": "Abschleppseil",
+          "qty": "1"
+        },
+        {
+          "id": "227",
+          "label": "Reifen-Notset",
+          "qty": "1"
+        },
+        {
+          "id": "228",
+          "label": "Starterkabel",
+          "qty": "1"
+        },
+        {
+          "id": "229",
+          "label": "Helme Rosenbauer Heros 2 / smart",
+          "qty": "2"
+        },
+        {
+          "id": "230",
+          "label": "Hygieneschutzpakete (Overall Kat.3, FFP3, Schuhüberzieher, Brille)",
+          "qty": "3"
+        },
+        {
+          "id": "231",
+          "label": "Kabelbinder (Müllsack-Verschluss)",
+          "qty": "ca. 5"
+        },
+        {
+          "id": "232",
+          "label": "Klebeband Gewebeband",
+          "qty": "1 Rolle"
+        },
+        {
+          "id": "233",
+          "label": "Langarm-Kittel mit Bündchen",
+          "qty": "3"
+        },
+        {
+          "id": "234",
+          "label": "Müllsäcke ≥60l (mit Zugband)",
+          "qty": "1 Rolle"
+        },
+        {
+          "id": "235",
+          "label": "Schutzbrillen geschlossen",
+          "qty": "3"
+        },
+        {
+          "id": "236",
+          "label": "FFP3-Masken (CPR, tobender Pat., Inhalationstherapie)",
+          "qty": "3"
+        },
+        {
+          "id": "237",
+          "label": "Schutzoverall (zusätzlich)",
+          "qty": "2"
+        },
+        {
+          "id": "238",
+          "label": "Schnittfeste Handschuhe gem. EN388 (Paar)",
+          "qty": "2"
+        },
+        {
+          "id": "239",
+          "label": "Rettungstuch gem. LV-Standard",
+          "qty": "1"
+        },
+        {
+          "id": "240",
+          "label": "(Rollboard alt: Alpha NEO Vision)",
+          "qty": "(1)"
+        },
+        {
+          "id": "241",
+          "label": "Schaufeltrage (ultraMEDIC ultraSCOOP)",
+          "qty": "1"
+        },
+        {
+          "id": "242",
+          "label": "Gurte für Schaufeltrage (3x)",
+          "qty": "3"
+        },
+        {
+          "id": "243",
+          "label": "Schneeketten (Nov–15. Apr)",
+          "qty": "1 Set"
+        },
+        {
+          "id": "244",
+          "label": "Schutztaschen für Geburtenset (z. B. Boscarol Innentasche rot)",
+          "qty": "2"
+        },
+        {
+          "id": "245",
+          "label": "Baby-Aludecken mit Kapuze",
+          "qty": "2"
+        },
+        {
+          "id": "246",
+          "label": "Geburtenpakete (ÖRK-Standard, siehe Inhalte)",
+          "qty": "2"
+        },
+        {
+          "id": "247",
+          "label": "Abwurfbeutel (für Plazenta)",
+          "qty": "1"
+        },
+        {
+          "id": "248",
+          "label": "Babywickeltuch 87x90cm",
+          "qty": "1"
+        },
+        {
+          "id": "249",
+          "label": "Geburtenunterlage 80x50cm",
+          "qty": "2"
+        },
+        {
+          "id": "250",
+          "label": "Keimfreie Kompresse 7,5x7,5cm, steril",
+          "qty": "2"
+        },
+        {
+          "id": "251",
+          "label": "Keimfreie Kompresse (Vorlage) steril",
+          "qty": "1"
+        },
+        {
+          "id": "252",
+          "label": "Nabelbinden 6cm x 4m",
+          "qty": "2"
+        },
+        {
+          "id": "253",
+          "label": "Nabelschnurklemmen steril",
+          "qty": "4"
+        },
+        {
+          "id": "254",
+          "label": "Schere stumpf/stumpf, steril",
+          "qty": "1"
+        },
+        {
+          "id": "255",
+          "label": "(Ampullarium) Ablaufgerät",
+          "qty": "1"
+        },
+        {
+          "id": "256",
+          "label": "ASS 250mg Tabletten",
+          "qty": "2"
+        },
+        {
+          "id": "257",
+          "label": "Combivent Kunststoffampulle",
+          "qty": "3"
+        },
+        {
+          "id": "258",
+          "label": "Cyklokapron 500mg 5ml Ampulle",
+          "qty": "2"
+        },
+        {
+          "id": "259",
+          "label": "Dibondrin 30mg 2ml Ampulle",
+          "qty": "1"
+        },
+        {
+          "id": "260",
+          "label": "Ebrantil 25mg 5ml Ampulle",
+          "qty": "1"
+        },
+        {
+          "id": "261",
+          "label": "Glucose 33% 50ml Kunststoffflasche",
+          "qty": "1"
+        },
+        {
+          "id": "262",
+          "label": "Kanülen i.m. Ø 0,7 x 30–32mm",
+          "qty": "2"
+        },
+        {
+          "id": "263",
+          "label": "Midazolam 15mg 3ml Ampulle",
+          "qty": "1"
+        },
+        {
+          "id": "264",
+          "label": "NaCl 100ml Kunststoffflasche",
+          "qty": "1"
+        },
+        {
+          "id": "265",
+          "label": "NaCl 10ml Kunststoffampulle",
+          "qty": "3"
+        },
+        {
+          "id": "266",
+          "label": "Naloxon (Narcanti) 0,4mg 1ml Ampulle",
+          "qty": "1"
+        },
+        {
+          "id": "267",
+          "label": "Nasalzerstäuber MAD",
+          "qty": "1"
+        },
+        {
+          "id": "268",
+          "label": "Paracetamol 1000mg 100ml Kunststoffamp.",
+          "qty": "1"
+        },
+        {
+          "id": "269",
+          "label": "Paracetamol 125mg Zäpfchen",
+          "qty": "2"
+        },
+        {
+          "id": "270",
+          "label": "Paracetamol 250mg Zäpfchen",
+          "qty": "2"
+        },
+        {
+          "id": "271",
+          "label": "Penthrox (Bestückung sobald lieferbar)",
+          "qty": "1"
+        },
+        {
+          "id": "272",
+          "label": "Seacoron 150mg 3ml Ampulle",
+          "qty": "3"
+        },
+        {
+          "id": "273",
+          "label": "Solu-Dacortin 250mg + 5ml Lösungsmittel",
+          "qty": "1"
+        },
+        {
+          "id": "274",
+          "label": "Stesolid Rektiole 10mg",
+          "qty": "1"
+        },
+        {
+          "id": "275",
+          "label": "Stesolid Rektiole 5mg",
+          "qty": "1"
+        },
+        {
+          "id": "276",
+          "label": "Suprarenin 1mg 1ml Ampulle",
+          "qty": "5"
         }
       ]
     }
